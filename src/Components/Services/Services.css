@@ -24,14 +24,36 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .awsome>:nth-child(3) {
     color: var(--gray);
     font-size: 14px;
     margin-top: 1rem;
 }
 
-.s-button{
+.s-button {
     width: 8rem;
     height: 2rem;
     margin-top: 1rem;
+}
+
+.cards {
+    position: relative;
+    /* position: absolute; */
+}
+
+.cards>* {
+    position: absolute;
+    /* position:relative; */
+}
+
+/* blur */
+.s-blur2 {
+    left: 14rem;
+    top: 8rem;
+}
+
+.s-blur1{
+    top: 13rem;
+    left: -18rem;
 }
